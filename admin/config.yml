@@ -1,0 +1,95 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Website content"
+    files:
+      - name: "main"
+        label: "Portfolio content"
+        file: "content/site.json"
+        fields:
+          - { label: "Full name", name: "name", widget: "string" }
+          - { label: "Role (short)", name: "role", widget: "string" }
+          - { label: "Role (subtitle)", name: "roleSecondary", widget: "string" }
+          - { label: "Hero tagline", name: "heroTagline", widget: "text" }
+          - { label: "Profile photo", name: "profileImage", widget: "image" }
+
+          - label: "About paragraphs"
+            name: "aboutParagraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+
+          - label: "Areas of expertise"
+            name: "expertise"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "LinkedIn URL", name: "linkedinUrl", widget: "string", required: false, hint: "Full profile URL, e.g. https://www.linkedin.com/in/yourname" }
+
+          - label: "Highlight metrics (top strip)"
+            name: "metrics"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Event process steps"
+            name: "eventProcess"
+            widget: "list"
+            field: { label: "Step", name: "step", widget: "string" }
+
+          - { label: "Events intro line", name: "eventIntro", widget: "text" }
+
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+
+          - { label: "Video intro line", name: "videoIntro", widget: "text" }
+          - { label: "Video URL (YouTube or Vimeo link)", name: "videoEmbedUrl", widget: "string", required: false, hint: "Paste a normal YouTube or Vimeo link — it converts automatically. Leave blank to show 'Video coming soon'." }
+
+          - { label: "Communication assets intro line", name: "galleryIntro", widget: "text" }
+
+          - label: "Communication assets"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+              - label: "Tag"
+                name: "tag"
+                widget: "select"
+                options: ["Education", "Conversion"]
+
+          - { label: "Performance intro line", name: "performanceIntro", widget: "text" }
+
+          - label: "Campaign performance"
+            name: "performance"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Campaign name", name: "name", widget: "string" }
+              - { label: "Reach", name: "reach", widget: "string" }
+              - { label: "Impressions", name: "impressions", widget: "string" }
+              - { label: "Engagement rate", name: "engagementRate", widget: "string" }
+              - label: "Platforms"
+                name: "platforms"
+                widget: "list"
+                field: { label: "Platform", name: "platform", widget: "string" }
+
+          - { label: "Footer note", name: "footerNote", widget: "text" }
