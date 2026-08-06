@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "name": "Muhammad Hafidz",
+    "surname": "Bin Zainudin",
+    "title": "Creative & Corporate Communications",
+    "location": "Kuala Lumpur, Malaysia",
+    "hook": "I help brands turn complex messages into something people can easily understand and remember.",
+    "photo": "images/profile.jpg",
+    "email": "muhdhfdz98@gmail.com",
+    "phone": "+6017 249 3508",
+    "socials": [
+      { "label": "LinkedIn", "url": "" },
+      { "label": "Instagram", "url": "" },
+      { "label": "Behance", "url": "" }
+    ]
+  },
+
+  "about": [
+    {
+      "tag": "COMMS",
+      "heading": "Corporate Communication & Public Engagement",
+      "body": "Skilled in crafting and delivering clear, audience-driven messages that strengthen brand trust and engagement. Adept at developing communication materials that connect with diverse stakeholders across internal and external platforms."
+    },
+    {
+      "tag": "STAKEHOLDER",
+      "heading": "Stakeholder & Relationship Management",
+      "body": "Experienced in fostering strong professional relationships through collaborative communication and event engagement. Able to align objectives between internal teams, partners, and the public to ensure cohesive brand representation."
+    },
+    {
+      "tag": "EVENTS",
+      "heading": "Event & Activation Management",
+      "body": "Led on-ground engagement at events including the HRM DCO Townhall 2022 and Health Cancer Day, managing the EPF i-Lindung booth to promote Etiqa's Critical Care Takaful Plus product and strengthen product awareness through direct public engagement."
+    },
+    {
+      "tag": "CREATIVE",
+      "heading": "Creative Communication & Design Thinking",
+      "body": "Versatile in multimedia production and visual storytelling. Skilled in transforming complex product information into engaging, relatable content that resonates with both internal audiences and the general public."
+    }
+  ],
+
+  "images": [
+    {
+      "id": "img-1",
+      "file": "images/placeholder-1.jpg",
+      "title": "i-Lindung Fiesta",
+      "caption": "Campaign visual for Etiqa Family Takaful — festival-themed awareness creative."
+    },
+    {
+      "id": "img-2",
+      "file": "images/placeholder-2.jpg",
+      "title": "Online Takaful yang Easy untuk Introvert",
+      "caption": "100% online positioning creative — no queues, no forms, done on your phone."
+    },
+    {
+      "id": "img-3",
+      "file": "images/placeholder-3.jpg",
+      "title": "No MCR? No Problem!",
+      "caption": "Product education creative simplifying medical checkup requirements."
+    },
+    {
+      "id": "img-4",
+      "file": "images/placeholder-4.jpg",
+      "title": "Wondering About EPF i-Lindung?",
+      "caption": "Explainer creative on eligibility for EPF i-Lindung."
+    },
+    {
+      "id": "img-5",
+      "file": "images/placeholder-5.jpg",
+      "title": "Level Up Your Online Medical Card",
+      "caption": "Product upgrade promotion for Etiqa's online medical card."
+    },
+    {
+      "id": "img-6",
+      "file": "images/placeholder-6.jpg",
+      "title": "Online Takaful untuk Si Busy Kejar Deadline",
+      "caption": "Campaign creative targeting busy professionals with fast-signup messaging."
+    },
+    {
+      "id": "img-7",
+      "file": "images/placeholder-7.jpg",
+      "title": "Campaign 7",
+      "caption": "Add a real description here."
+    },
+    {
+      "id": "img-8",
+      "file": "images/placeholder-8.jpg",
+      "title": "Campaign 8",
+      "caption": "Add a real description here."
+    },
+    {
+      "id": "img-9",
+      "file": "images/placeholder-9.jpg",
+      "title": "Campaign 9",
+      "caption": "Add a real description here."
+    }
+  ],
+
+  "events": [
+    { "id": "evt-1", "file": "images/event-1.jpg", "title": "Roadshow Takaful 2024" },
+    { "id": "evt-2", "file": "images/event-2.jpg", "title": "Etiqa engagement roadshows" },
+    { "id": "evt-3", "file": "images/event-3.jpg", "title": "Motor Takaful: Art of Speed 2025" },
+    { "id": "evt-4", "file": "images/event-4.jpg", "title": "Etiqa's M. Nasir Campaign" },
+    { "id": "evt-5", "file": "images/event-5.jpg", "title": "Maybank Group Sustainability Week 2024" },
+    { "id": "evt-6", "file": "images/event-6.jpg", "title": "Health Cancer Care Day 2025" },
+    { "id": "evt-7", "file": "images/event-7.jpg", "title": "Etiqa's Bike Week 2024" },
+    { "id": "evt-8", "file": "images/event-8.jpg", "title": "Perkeso Health Carnival 2025" }
+  ],
+
+  "videos": [
+    { "id": "vid-1", "youtubeId": "vqfo15viuqw", "title": "Portfolio V1", "caption": "" },
+    { "id": "vid-2", "youtubeId": "LcOGe5KS2Fk", "title": "Portfolio V2", "caption": "" },
+    { "id": "vid-3", "youtubeId": "dGQsbNhGHqU", "title": "Portfolio V3", "caption": "" },
+    { "id": "vid-4", "youtubeId": "NvPiZ5oIVrg", "title": "Portfolio V4", "caption": "" },
+    { "id": "vid-5", "youtubeId": "jNCrg0i5jos", "title": "Portfolio V5", "caption": "" },
+    { "id": "vid-6", "youtubeId": "eCv0J624yXo", "title": "Portfolio V6", "caption": "" },
+    { "id": "vid-7", "youtubeId": "B56BxyYWMus", "title": "Portfolio V7", "caption": "" },
+    { "id": "vid-8", "youtubeId": "zuWbIXAlyew", "title": "Portfolio V8", "caption": "" },
+    { "id": "vid-9", "youtubeId": "hBn21pTyIJs", "title": "EFTB Q1 Campaign Thematic Episode 9", "caption": "" }
+  ]
+}
