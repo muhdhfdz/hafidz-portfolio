@@ -110,10 +110,6 @@ function renderGallery(images) {
     const figure = el("figure", "gallery-item");
     figure.setAttribute("tabindex", "0");
     figure.appendChild(mediaOrPlaceholder(item.file, "IMAGE\nMISSING\n\nAdd " + (item.file || "a file") + "\nin /images and set\n\"file\" in content.json", item.title));
-    const overlay = el("figcaption", "gallery-overlay");
-    overlay.appendChild(el("h4", null, item.title || ""));
-    overlay.appendChild(el("p", null, item.caption || ""));
-    figure.appendChild(overlay);
     grid.appendChild(figure);
   });
 }
