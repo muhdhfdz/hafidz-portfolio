@@ -98,27 +98,57 @@
   "videos": [
     {
       "id": "vid-1",
-      "youtubeId": "",
-      "title": "Plug and Play",
-      "caption": "Quick-setup product demo shot on mobile."
+      "youtubeId": "vqfo15viuqw",
+      "title": "Portfolio V1",
+      "caption": ""
     },
     {
       "id": "vid-2",
-      "youtubeId": "",
-      "title": "Etiqa Product Walkthrough",
-      "caption": "Talking-head explainer produced for Etiqa Family Takaful."
+      "youtubeId": "LcOGe5KS2Fk",
+      "title": "Portfolio V2",
+      "caption": ""
     },
     {
       "id": "vid-3",
-      "youtubeId": "",
-      "title": "Siapa Yang Boleh Daftar?",
-      "caption": "Eligibility explainer — who can register for the plan."
+      "youtubeId": "dGQsbNhGHqU",
+      "title": "Portfolio V3",
+      "caption": ""
     },
     {
       "id": "vid-4",
-      "youtubeId": "",
-      "title": "Controller Yang Berkualiti",
-      "caption": "Product feature video — durable, high-quality build."
+      "youtubeId": "NvPiZ5oIVrg",
+      "title": "Portfolio V4",
+      "caption": ""
+    },
+    {
+      "id": "vid-5",
+      "youtubeId": "jNCrg0i5jos",
+      "title": "Portfolio V5",
+      "caption": ""
+    },
+    {
+      "id": "vid-6",
+      "youtubeId": "eCv0J624yXo",
+      "title": "Portfolio V6",
+      "caption": ""
+    },
+    {
+      "id": "vid-7",
+      "youtubeId": "B56BxyYWMus",
+      "title": "Portfolio V7",
+      "caption": ""
+    },
+    {
+      "id": "vid-8",
+      "youtubeId": "zuWbIXAlyew",
+      "title": "Portfolio V8",
+      "caption": ""
+    },
+    {
+      "id": "vid-9",
+      "youtubeId": "hBn21pTyIJs",
+      "title": "EFTB Q1 Campaign Thematic Episode 9",
+      "caption": ""
     }
   ]
 }
